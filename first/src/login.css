@@ -1,0 +1,106 @@
+body {
+  background: rgb(191, 165, 216);
+  color: black;
+  font-family: monospace, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  height: 40px;
+  width:400px;
+}
+
+.container {
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.round-img {
+  border-radius: 50%;
+  border: 7px solid white;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+.inner-c {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.gridc {
+  display: flex;
+  justify-content: center; /* Optional: centers the button horizontally */
+  align-items: center; /* Optional: centers the button vertically */
+  height: 50px; /* Example height for the container */
+  /* border: 2px solid #ccc; Example border for the container */
+}
+
+.gridc button {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background-color: #7a5cc0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* margin: 10px; */
+  margin-top: 0px;
+  /* margin-left: 12px; */
+}
+
+.forgot-password {
+  text-align: center;
+}
+.form {
+  padding: 10px;
+  border: 2px solid black;
+  justify-content: center;
+  height: 600px;
+  width:450px;
+  box-shadow: 0 10px 40px 10px rgba(34, 33, 34, 0.3);
+  background-color: blueviolet;
+}
+.forgt-password {
+  display: flex;
+  font-size: small;
+  margin-top: 2px;
+  justify-content: flex-end;
+}
+.signUp {
+  display: flex;
+  font-size: small;
+  margin-top: 2px;
+  justify-content: center;
+}
+a {
+  font-weight: bold;
+  color: rgb(23, 33, 227);
+}
+.labels
+{
+  padding: 16px;
+  padding-bottom: 2px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
